@@ -1,0 +1,16 @@
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-luarocks-package:
+    name: Build Units.lua, Luarocks package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: upload Luarocks package
+        shell: bash
+        run: |
+          luarocks upload scm-1-units.rockspec --api-key=LUAROCKS_API_KEY
