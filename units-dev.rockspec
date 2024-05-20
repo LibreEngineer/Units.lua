@@ -1,5 +1,5 @@
 package = "units"
-version = "scm-1"
+version = "dev"
 source = {
    url = "git://github.com/LibreEngineer/Units.lua",
 }
