@@ -5,11 +5,13 @@ on:
     branches: [ main ]
 
 jobs:
-  build-luarocks-package:
-    name: Build Units.lua, Luarocks package
+  package:
+    name: Build and Upload Units.lua, Luarocks Package
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: leafo/gh-actions-lua@v9
+      - uses: leafo/gh-actions-luarocks@v4
       - name: upload Luarocks package
         shell: bash
         run: |
