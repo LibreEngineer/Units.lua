@@ -15,4 +15,4 @@ jobs:
       - name: upload Luarocks package
         shell: bash
         run: |
-          luarocks upload units-dev.rockspec --api-key=LUAROCKS_API_KEY
+          luarocks upload units-dev-1.rockspec --api-key=LUAROCKS_API_KEY
