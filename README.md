@@ -1,4 +1,4 @@
-# Units.lua
+# Units_of_Measurement.lua
 An easy way to ensure proper unit conversions and inputs in Lua.
 
 ## How it Works
