@@ -1,5 +1,5 @@
-# Units_of_Measurement.lua
-An easy way to ensure proper unit conversions and inputs in Lua.
+# Units of Measurement
+UOM (Units of Measurement) is a lua module to ensure proper unit conversions. 
 
 ## How it Works
 The root of the module table contains a list of key-indexed tables. Each index represents a type of measurement, like distance or luminosity.
