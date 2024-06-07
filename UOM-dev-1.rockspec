@@ -1,10 +1,10 @@
-package = "units"
+package = "UOM"
 version = "dev-1"
 source = {
    url = "git://github.com/LibreEngineer/Units.lua",
 }
 description = {
-   summary = "An easy way to ensure proper unit conversions and inputs in Lua.",
+   summary = "UOM (Units of Measurement) is an easy way to ensure proper unit conversions and inputs in Lua.",
    license = "WTFPL",
 }
 dependencies = {
@@ -13,6 +13,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      units = "units.lua",
+      units = "UOM.lua",
    },
 }
